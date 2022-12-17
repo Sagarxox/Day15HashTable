@@ -97,5 +97,6 @@ namespace Day15HashTables
     {
         public k key { get; set; }
         public v value { get; set; }
+
     }
 }
