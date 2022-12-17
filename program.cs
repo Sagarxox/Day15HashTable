@@ -26,6 +26,8 @@ namespace Day15HashTables
             hash.Add("17", "avoidable");
             hash.Add("18", "situations");
 
+            hash.Remove("17");
+
             string hash0 = hash.Get("0");
             Console.WriteLine("0th index value:" + hash0);
             string hash1 = hash.Get("1");
